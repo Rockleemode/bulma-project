@@ -1,10 +1,11 @@
+// the navigation
 const nav = document.querySelector("#nav-links");
 const icon = document.querySelector("#burger-icon");
 
 icon.addEventListener("click", () => {
   nav.classList.toggle("is-active");
 });
-
+// the tabs
 const tabs = document.querySelectorAll(".tabs li");
 const content = document.querySelectorAll("#tab-content > div");
 
@@ -24,3 +25,17 @@ tabs.forEach((tab) => {
     });
   });
 });
+
+// the signup
+
+const btn = document.querySelector("#btn");
+const modal = document.querySelector(".modal");
+const cancel = document.querySelector("#icon");
+
+btn.addEventListener('click', () =>{
+  modal.classList.toggle("is-active");
+})
+
+cancel.addEventListener('click', () =>{
+  modal.classList.remove("is-active");
+})
