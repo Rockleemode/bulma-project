@@ -8,7 +8,7 @@
 </head>
 <body>
     <!-- navigation Bar -->
-    <nav class="navbar is-white has-shadow" >
+    <nav class="navbar is-white has-shadow">
         <div class="navbar-brand" >
             <a href="#" class="navbar-item">
                 <img src="/images/download.png" alt="rock" style="max-height: 60px;">
@@ -51,22 +51,53 @@
         </nav>
        </div>
       </div>
-       <section class="section">
+       <section class="section">    
         <div class="container">
-            <div class="columns is-vcentered">
-                <div class="column is-3">
+            <div class="columns is-vcentered is-multiline">
+                <div class="column is-6-tablet is-3-desktop">
                     <h1 class="is-size-3-mobile is-size-1-desktop title">Hoodie</h1>
                     <h2 class="is-size-3-mobile is-size-2-desktop subtitle">XXL</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima quaerat incidunt quod quos, quidem officiis dolorem assumenda impedit adipisci fuga?</p>
                 </div>
-                <div class="column is-5 is-text-centered is-size-7" style="width: 30%">
+                <div class="column is-6-tablet is-5-desktop is-text-centered is-size-7" style="width: 30%">
                     <img src="images/sweatshirt.png" class="px-6">
                 </div>
                 <div class="column is-4">
-                    <div class="is-size-4" mb-4>$45.50</div>
+                    <div class=" is-12-tablet is-4-desktop" mb-4>$45.50</div>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, dicta.</p>
                 </div>
             </div>
+        </div>
+       </section>
+       <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-7">
+                   <div class="tabs is-boxed">
+                    <ul>
+                        <li class="is-active" data-target="product-details">
+                            <a>Product Details</a>
+                        </li>
+                        <li data-target="delivery-info">
+                            <a>Delivery Information</a>
+                        </li>   
+                    </ul>
+                </div>
+                <div class="px-4" id="tab-content">
+                        <div id="product-details">
+                            <h3 class="is-4 title">Product Details</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, alias.</p>
+                        </div>
+                        <div class="is-hidden" id="delivery-info">
+                            <h3 class="is-4 title">Delivery Information </h3>
+                            <p>rock lee road to become the tai jutsu master </p>
+                        </div>  
+                   </div>
+                </div>
+                <div class="column is-5">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex hic at ab recusandae quam. Saepe, exercitationem mollitia? Dolore, pariatur tenetur.</p>
+                </div>
+            </div>  
         </div>
        </section>
        <script src="script.js"></script>
